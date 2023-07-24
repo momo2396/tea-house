@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tea House</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/3fed0b11a1.js" crossorigin="anonymous"></script>
     <script>
         tailwind.config = {
           theme: {
@@ -25,6 +26,72 @@
       </style>
 </head>
 <body class="font-manrope">
-    <h1>hey</h1>
+    <header class="container mx-auto border-black border-2">
+        <div class="hero min-h-screen">
+            <div class="hero-content flex-col lg:flex-row">
+              <div>
+                <h1 class="text-7xl font-bold">It's good<br> 
+                    tea time at The<br>Tea House</h1>
+                <p class="py-6">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+                <button class="btn btn-primary">Explore More</button>
+              </div>
+              <div>
+                <img src="/images/banner.png" class="max-w-sm" />
+                <div class="-mt-14 ml-10 flex justify-center items-center gap-4 drop-shadow-lg rounded-lg bg-white p-4 w-60">
+                    <div>
+                        <i class="fa-solid fa-star text-4xl font-extrabold" style="color: #fbc246;"></i>
+                    </div>
+                    <div>
+                        <h1 class="text-4xl font-extrabold">5.00</h1>
+                        <p class="font-black">Trust Pilot Ratings</p>
+                    </div>
+              </div>
+              </div>
+            </div>
+          </div>
+    </header>
+    <main class="container mx-auto mt-10 mb-10">
+        <section>
+            <div class="text-center">
+                <h1 class="text-4xl font-extrabold mb-3">Our Featured Products</h1>
+                <p class=" lg:max-w-3xl mx-auto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mt-10 justify-center">
+                <div class="card card-compact bg-base-100 shadow-xl p-8">
+                    <figure><img src="/images/tea-2.png" alt="milk-tea" /></figure>
+                    <div class="card-body">
+                      <h2 class="text-center text-3xl"> Milk Tea</h2>
+                      <p class="text-center">Creamer could be replaced by fresh milk</p>
+                    </div>
+                  </div>
+                <div class="card card-compact bg-base-100 shadow-xl p-8">
+                    <figure><img src="/images/tea-1.png" alt="black-tea" /></figure>
+                    <div class="card-body">
+                      <h2 class="text-center text-3xl"> Black Tea</h2>
+                      <p class="text-center">Creamer could be replaced by fresh milk</p>
+                    </div>
+                  </div>
+                <div class="card card-compact bg-base-100 shadow-xl p-8">
+                    <figure><img src="/images/tea-3.png" alt="milk-tea" /></figure>
+                    <div class="card-body">
+                      <h2 class="text-center text-3xl"> Milk Tea</h2>
+                      <p class="text-center">Creamer could be replaced by fresh milk</p>
+                    </div>
+                  </div>
+                <div class="card card-compact bg-base-100 shadow-xl p-8">
+                    <figure><img src="/images/tea-4.png" alt="milk-tea" /></figure>
+                    <div class="card-body">
+                      <h2 class="text-center text-3xl"> Milk Tea</h2>
+                      <p class="text-center">Creamer could be replaced by fresh milk</p>
+                    </div>
+                  </div>
+
+                  </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
